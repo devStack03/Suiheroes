@@ -11,7 +11,7 @@ export const InfoStaking = {
 
 export const InfoCoinflip = [
     {
-        name: "SOL",
+        name: "SUI",
         contract: '0xca7ba1c8700a67145c4b700c900cb9bb137ef2e2a9e59cb63b7a71136c57ab4b',
         wager_amount: [2, 5, 10, 15, 20, 25],
         pool: '0x39ad471eb1200f864af2bbc0e7e696c75318e42d28fd0e77cd0a503f3edff139',

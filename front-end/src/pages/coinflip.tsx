@@ -4,7 +4,6 @@ import { openNotification, sleep } from "../utils/components"
 import { InfoCoinflip, InfoStaking } from "../utils/constants"
 import { useProgram } from "../utils/useProgram"
 import { useWallet } from "@suiet/wallet-kit"
-import Confetti from "react-confetti"
 import CROWN_IMG from "../assets/images/crown.svg"
 import SUI_IMG from '../assets/images/SUI.png'
 import { useDatabse } from "../utils/useDatabase"
@@ -79,7 +78,7 @@ export default function Coinflip(){
                 }}>SUI</button>
                 <button className={"btn-coin " + (selectedCoin ? "active" : "")} onClick={()=>{
                     setSelectedCoin(1)
-                }}>SOL</button>
+                }}>SHS</button>
             </div>
         </div>
         {

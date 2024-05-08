@@ -21,9 +21,6 @@ export default function Header(){
                 <Typography variant='h4' component="div" sx={{flexGrow: 1, display: "flex", alignItems: "center", fontWeight: "bold", lineHeight: "44px", fontFamily: "IndustryBold", cursor: "pointer !important"}}>
                     <img src={LogoIMG} alt="logo" width="45px"/>&nbsp;{windowSize>580 ? "SUIHEROES":""}
                 </Typography>
-                {/* <button className='btn-switch-chain' onClick={()=>{
-                    window.location.host = "arbitheroes-testnet.netlify.app"
-                }}>Switch Arbitrum</button> */}
                 <Box sx={{display: "block"}}>
                     <ConnectButton>Connect Wallet</ConnectButton>
                 </Box>

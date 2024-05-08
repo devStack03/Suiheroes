@@ -101,7 +101,7 @@ export default function DiceGame(){
                         <div className="wager-select-panel">
                         {
                             InfoDice.wager_amount.map((item, idx)=>{
-                                return <button key={idx} type="button" className={"btn-wager "+(selectedAmount===idx?"active":"")} onClick={()=>{setSelectedAmount(idx)}}>{item+" BHO"}</button>
+                                return <button key={idx} type="button" className={"btn-wager "+(selectedAmount===idx?"active":"")} onClick={()=>{setSelectedAmount(idx)}}>{item+" SHS"}</button>
                             })
                         }
                         </div>
